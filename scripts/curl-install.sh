@@ -2,8 +2,8 @@
 
 # Checking if is running in Repo Folder
 if [[ "$(basename "$(pwd)" | tr '[:upper:]' '[:lower:]')" =~ ^scripts$ ]]; then
-    echo "You are running this in ArchTitus Folder."
-    echo "Please use ./archtitus.sh instead"
+    echo "You are running this in Turbine Folder."
+    echo "Please use ./turbune.sh instead"
     exit
 fi
 
@@ -12,11 +12,11 @@ fi
 echo "Installing git."
 pacman -Sy --noconfirm --needed git glibc
 
-echo "Cloning the ArchTitus Project"
-git clone https://github.com/christitustech/ArchTitus
+echo "Cloning the TurbineOS Project"
+git clone https://github.com/CaptainsCrew/TurbineOS
 
-echo "Executing ArchTitus Script"
+echo "Executing TubineOS Script"
 
-cd $HOME/ArchTitus
+cd $HOME/TurbineOS
 
-exec ./archtitus.sh
+exec ./turbine.sh
