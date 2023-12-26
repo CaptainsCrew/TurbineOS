@@ -26,6 +26,7 @@ awesome-terminal-fonts
 bash-completion
 bind
 bison
+blender
 bluez
 bluez-libs
 bluez-utils
