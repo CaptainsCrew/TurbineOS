@@ -15,7 +15,7 @@ bash <(curl -L https://raw.githubusercontent.com/CaptainsCrew/TurbineOS/main/scr
 
 Old Script with all the customizations is located in the (all-in-one-2022 branch) here: <https://github.com/ChrisTitusTech/ArchTitus/tree/all-in-one-2022-script>
 
-# ArchTitus Installer Script
+# TurbineOS Installer Script
 [![GitHub Super-Linter](https://github.com/ChrisTitusTech/ArchTitus/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
 <img src="https://i.imgur.com/YiNMnan.png" />
